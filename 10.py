@@ -12,7 +12,7 @@ from random import randint
 from multiprocessing import Pool, Process
 
 # Setup
-parser = argparse.ArgumentParser(description='© Warbot v`1')
+parser = argparse.ArgumentParser(description='© Warbot')
 parser.add_argument('-t', '--token', type=str, metavar='', required=False, help='Token | Example : Exxxx')
 parser.add_argument('-e', '--email', type=str, default='', metavar='', required=False, help='Email Address | Example : example@xxx.xx')
 parser.add_argument('-p', '--passwd', type=str, default='', metavar='', required=False, help='Password | Example : xxxx')
